@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+
+body {
+  font-family: 'Monofett', cursive;
+  margin: 0;
+  font-size: 2.5em;
+  text-align: center;
+  background: hsl(265, 58%, 23%);
+  color: #fff;
+}

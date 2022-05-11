@@ -1,0 +1,36 @@
+.kortti {
+    position: relative;
+}
+
+.kortti img {
+    width: 90%;
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 6px;
+}
+
+.kortti .etupuoli {
+    transform: rotateY(90deg);
+    position: absolute;
+    transition: all ease-in 0.2s;
+}
+
+/* estetään tuplaklikkaus bugi, jolla saa parin */
+.kaannetty{
+    pointer-events: none;
+}
+
+.kaannetty .etupuoli{
+    transform: rotateY(0deg);
+    transition-delay: 0.2s;
+}
+
+.kortti .takapuoli {
+    transition-delay: 0.2s;
+    transition: all ease-in 0.2s;
+}
+
+.kaannetty .takapuoli{
+    transform: rotateY(90deg);
+    transition-delay: 0s;
+}
